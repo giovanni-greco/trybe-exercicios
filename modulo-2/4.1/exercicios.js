@@ -118,3 +118,41 @@ if(pair === 0) {
 
 // exercicio 9
 
+const a9 = 1
+const b9 = 2
+const c9 = 3
+const odd = (a9 + b9 + c9)%2 
+
+
+if(odd !== 0) {
+    console.log(true)
+} else {
+    console.log(false)
+}
+
+// exercicio 10
+
+const custo = 10
+const venda = 20
+const vendas = 1000
+const custoTotal = custo * 1.2
+const lucro = (venda - custoTotal) * vendas
+
+if(custo < 0 || venda < 0 || custoTotal < 0 || lucro < 0) {
+    console.log("Erro de entrada")
+} else { console.log("Seu lucro foi de " + (lucro))
+
+}
+
+// exercicio 11
+
+const salarioBruto = 2000
+const INSS = salarioBruto * 0.09
+const salarioBase = salarioBruto - INSS
+const IR = salarioBase * 0
+const salarioLiquido = salarioBase - IR
+
+console.log("Seu salario líquido é de R$" + salarioLiquido)
+
+
+// exercicio 
