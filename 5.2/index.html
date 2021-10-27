@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Exercicios</title>
+    </head>
+    <body>
+        <main id="paiDoPai">
+            <section id="pai">
+              <section id="primeiroFilho"></section>
+              <section id="elementoOndeVoceEsta">
+                <section id="primeiroFilhoDoFilho"></section>
+                <section id="segundoEUltimoFilhoDoFilho"></section>
+              </section>
+              Atenção!
+              <section id="terceiroFilho"></section>
+              <section id="quartoEUltimoFilho"></section>
+            </section>
+          </main>
+    <script>
+      function addColor() {
+        let paiColor = document.getElementById('elementoOndeVoceEsta').parentNode
+        paiColor.style.backgroundColor = 'red'
+      } addColor();
+
+      function addText() {
+        let sonOfSon = document.getElementById('primeiroFilhoDoFilho')
+        sonOfSon.innerText = 'son of son'
+      } addText();
+
+    </script>
+    </body>
+</html>

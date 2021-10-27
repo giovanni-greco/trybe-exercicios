@@ -1,0 +1,9 @@
+#login {
+    font-size: 60px;
+}
+
+body {
+    color: gray;
+    background-color:rgba(240, 235, 235, 0.959) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
